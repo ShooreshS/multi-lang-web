@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title data-i18n="pageTitle">Page TWO</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+        <script src="https://unpkg.com/i18next@21.6.3/i18next.min.js"></script>
+        <script type="module" src="js/translation.js"></script>
+        <script type="module" src="js/api.js"></script>
+        <script type="module" src="js/main.js"></script>
+    </head>
+    <body>
+        <nav id="mainMenu">
+            <ul>
+                <li><a href="index.html" data-i18n="menu.home">Home</a></li>
+                <li><a href="page2.html" data-i18n="menu.status">Status</a></li>
+            </ul>
+        </nav>
+        <div id="languageSelector">
+            <select id="languageSwitcher">
+                <option value="en">English</option>
+                <option value="es">Español</option>
+                <option value="de">Dutch</option>
+                <option value="se">Svensk</option>
+            </select>
+        </div>
+        <form id="myForm">
+            <h2 data-i18n="networkSettings">Network Settings</h2>
+            <div class="form-group">
+                <label data-i18n="networkMode" for="networkMode"
+                    >Network Mode:</label
+                >
+                <select id="networkMode" name="networkMode">
+                    <option value="auto">Auto</option>
+                    <option value="lte">LTE</option>
+                    <option value="3g">3G</option>
+                    <option value="2g">2G</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label data-i18n="ssid" for="ssid">SSID:</label>
+                <input type="text" id="ssid" name="ssid" />
+            </div>
+            <div class="form-group">
+                <label data-i18n="password" for="password">Password:</label>
+                <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    autocomplete="current-password"
+                />
+            </div>
+            <button type="submit" data-i18n="saveSettings">
+                Save Settings
+            </button>
+        </form>
+        <div id="statusSection">
+            <h2 data-i18n="routerStatus">Router Status</h2>
+            <div>
+                <strong data-i18n="signalStrength">Signal Strength:</strong>
+                <span id="signalStrength">-</span>
+            </div>
+            <div>
+                <strong data-i18n="connectedDevices">Connected Devices:</strong>
+                <span id="connectedDevices">-</span>
+            </div>
+            <div>
+                <strong data-i18n="dataUsage">Data Usage:</strong>
+                <span id="dataUsage">-</span>
+            </div>
+        </div>
+    </body>
+</html>

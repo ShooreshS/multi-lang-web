@@ -1,0 +1,17 @@
+{
+    "pageTitle": "Din Sidtitel",
+    "networkSettings": "Nätverksinställningar",
+    "networkMode": "Nätverksläge:",
+    "ssid": "SSID:",
+    "password": "Lösenord:",
+    "saveSettings": "Spara Inställningar",
+    "routerStatus": "Routerstatus",
+    "signalStrength": "Signalstyrka:",
+    "connectedDevices": "Anslutna Enheter:",
+    "dataUsage": "Dataanvändning:",
+    "languageSelect": "Välj Språk",
+    "menu": {
+        "home": "Hem",
+        "status": "Status"
+    }
+}

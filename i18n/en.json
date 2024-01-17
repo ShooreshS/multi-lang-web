@@ -1,0 +1,17 @@
+{
+    "pageTitle": "Your Page Title",
+    "networkSettings": "Network Settings",
+    "networkMode": "Network Mode:",
+    "ssid": "SSID:",
+    "password": "Password:",
+    "saveSettings": "Save Settings",
+    "routerStatus": "Router Status",
+    "signalStrength": "Signal Strength:",
+    "connectedDevices": "Connected Devices:",
+    "dataUsage": "Data Usage:",
+    "languageSelect": "Select Language",
+    "menu": {
+        "home": "Home",
+        "status": "Status"
+    }
+}

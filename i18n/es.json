@@ -1,0 +1,17 @@
+{
+    "pageTitle": "Título de la Página",
+    "networkSettings": "Configuración de Red",
+    "networkMode": "Modo de Red:",
+    "ssid": "SSID:",
+    "password": "Contraseña:",
+    "saveSettings": "Guardar configuración",
+    "routerStatus": "Estado del Router",
+    "signalStrength": "Fuerza de señal:",
+    "connectedDevices": "Dispositivos conectados:",
+    "dataUsage": "Uso de datos:",
+    "languageSelect": "Seleccionar idioma",
+    "menu": {
+        "home": "Inicio",
+        "status": "Estado"
+    }
+}
